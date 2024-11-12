@@ -3,19 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>F1 GP Ticket Tracker</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script async data-id="2418882417" id="chatling-embed-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
+    <title>The Formula One</title>
 </head>
 <body>
-    <h1>F1 GP Ticket Tracker</h1>
-    <div class="gallery">
-        <div class="track">
-            <a href="monza.html">
-                <img src="monza.png" alt="Monza">
-                <p>Monza GP</p>
-            </a>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">F1 GP TICKET TRACKER</span></h1>
+            </div>
+            <div id="search-bar">
+                <form action="#" method="GET">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
         </div>
-    </div>
+    </header>
+    <section id="cards">
+        <div class="wrapper" id="track-container">
+            <!-- Track cards will be inserted here by JavaScript -->
+        </div>
+    </section>
+    <script src="js/index.js"></script>
 </body>
 </html>
-
